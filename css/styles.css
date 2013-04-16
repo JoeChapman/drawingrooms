@@ -1,0 +1,221 @@
+body {
+background: #666;
+color: #444;
+font-size: .8em;
+font-family: arial, helvetica, 'sans serif';
+}
+
+
+/*---------GENERAL ANCHOR STYLES----------*/
+a {text-decoration: none;}
+a:link, a:visited {color: #f37;}
+a:hover, a:active {color: #e67;}
+
+/*--------REMOVES DEFAULT MARGIN AND PADDING FROM THESE BLOCK ELEMENTS-------*/
+html, body, ul, h1, h2, h3, h4, h5, h6, p  {margin:0; padding:0;}
+
+
+/*--------Container---------*/
+
+#container {width: 810px; height: 100%; margin:0 auto; background: #fff;}
+
+/*-------Banner Styles---------*/
+
+#banner {width: 810px; height: 61px; background: #887766;}
+
+#banner h1 {
+background: #887766;
+font-size: 310%;
+width: 40%;
+padding: 10px 0 0 20px;
+font-weight: normal;
+color: #99aaaa;
+font-family: 'times new roman', georgia, serif;
+}
+
+#banner em {color: #aaaa22; font-style: normal;}
+
+/*------MainContent Styles--------*/
+
+#mainContent {
+float: left;
+padding-top: 50px;
+width:100%;
+background: #fff;
+}
+
+#mainContent h2 {
+margin:-40px 0 30px 20px;
+font-size: 180%;
+font-family: 'times new roman', georgia, serif;
+}
+
+#mainContent p {margin: 20px 0;}
+
+
+/*----------Left Content STYLES---------*/
+
+#leftContent {float:left; width:165px; height: 100%;}
+
+
+/*--------CenterContent Styles--------*/
+
+#centerContent {float:left; width: 398px; margin: 0 0 50px 20px;}
+
+#centerPainting p {width: 96%;}
+
+#centerPainting p a {
+color: #f99;
+}
+
+/*----------RightHandColumn-------*/
+
+#rightHandColumn {
+float: right;
+width: 200px;
+height: 985px;
+background: #ccf;
+color: #000;
+}
+
+#artistsPhoto {
+margin: 65px 0 0 20px;
+width: 60%;
+height: 100px;
+background: url(../images/phil.jpg) no-repeat center;
+}
+
+#rightHandColumn p {
+font-style: italic;
+width: 60%;
+margin: 20px;
+}
+
+/*---------NAVBAR------------*/
+
+#mainNav {
+width: 110px;
+position: relative; left: 0px; top: 0px;/*KEEPS NAV BAR IN POSITION IN SAFARI*/
+margin: 0 0 0 20px;
+padding: 0;
+}
+
+#mainNav li {
+width: 110px;
+list-style-type: none;
+}
+
+#mainNav li a {
+width: 110px;
+font-size: 11px;
+color: #fff;
+display: block;
+text-align: center;
+height: 18px;
+line-height: 18px;
+margin: 0 0 5px 0;
+padding: 0 5px;
+background: #999;
+}
+
+#mainNav li a:hover {
+background: #aaa;
+}
+
+#index #mainNav .index a, #drawingrooms #mainNav .drawingrooms a, #otherwork #mainNav .otherwork a, #commissions #mainNav .commissions a, #contact #mainNav .contact a {
+background: #aaf;
+}
+
+/*------Painting Caption-------*/
+
+#paintingCaption {
+width: 150px;
+padding: 0;
+margin: 150px -25px 0 0px;
+text-align: right;
+}
+
+/*-------HOME PAGE VCARD---------*/
+
+#index #vcard {
+width: 100px;
+margin: 117px 0 0 20px;}
+
+
+/*--------CLEAR BOTH-----*/
+
+.clearBoth {
+clear: both;
+}
+
+#arrows {
+position: relative; left: 150px; top: 15px;
+}
+
+/*--------------------------------------------------DRAWINGROOMS PAGE STYLES--------------------------------------------*/
+
+#drawingrooms #mainContent {width:805px;}
+
+#drawingrooms .paintingCaption {width:130px; padding:0; margin:150px 0 0 10px; text-align:right;}
+
+/*--------------------------------------------------OTHER WORK----------------------------------------------------------*/
+
+#otherwork #mainContent {width:805px;}
+
+#otherwork .paintingCaption {width:130px; padding:0; margin:150px 0 0 10px; text-align:right;}
+
+/*--------------------------------------------------Commissions---------------------------------------------------------*/
+
+#commissions #rightHandColumn {
+height: 1020px;
+}
+
+#commissions #centerContent {
+margin: 0 0 50px 0;
+}
+
+/*--------------------------------------------------Contact-------------------------------------------------------------*/
+
+#contact #leftContent {width:150px;}
+
+#contact #centerContent {margin: 0 0 50px 40px;}
+
+#contact #paintingCaption {margin:300px 0 0 20px;}
+
+#contact #rightHandColumn {height: 670px;}
+
+#contact #rightHandColumn #artistsPhoto {margin-top: 29px;}
+
+#contact #rightHandColumn h2 {margin: 10px 0 0 10px; padding: 0; font-family: serif; font-size: 180%;}
+
+#contact #rightHandColumn #vcard {margin: 0 0 30px 20px; width:150px;}
+
+#gallery {
+    float: left;
+    width: 620px;
+}
+
+#poster img {
+    display: block;
+    margin:  0 auto;
+}
+
+.thumbs li {
+    list-style-type: none;
+    float: left;
+    margin: 10px;
+}
+
+.thumbs li img {
+    border: 1px solid #444;
+    display: block;
+    height: 40px;
+    width: 60px;
+    opacity: .6;
+}
+
+.thumbs li img:hover {
+    cursor: pointer;
+    opacity: 1;
+}
+

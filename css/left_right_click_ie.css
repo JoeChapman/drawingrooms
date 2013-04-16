@@ -1,0 +1,89 @@
+/* ================================================================ 
+This copyright notice must be untouched at all times.
+
+The original version of this stylesheet and the associated (x)html
+is available at http://www.stunicholls/gallery/left_right_click.html
+Copyright (c) 2005-2007 Stu Nicholls. All rights reserved.
+This stylesheet and the associated (x)html may be modified in any 
+way to fit your requirements.
+=================================================================== */
+
+/* vertical align for IE */
+#gallery ul li.chosen i {display:block;}
+#gallery ul li.chosen i em {width:0; height:0; display:} 
+#gallery ul li.chosen i img {width:530px; height:355px;}
+
+
+/* for IE6 initial photo size */
+#gallery ul li.chosen i img.start {width:530px; height:355px;}
+
+#gallery ul li div {margin:0 0 0 140px;}
+
+#gallery ul li span.paintingCaption {margin-left: 140px;}
+
+#gallery {width:100%; height:150px; position:relative; top:-10px; left: -210px; padding-top:356px; margin: 0;}
+
+#gallery ul {list-style:none; margin-left: -0px; background:#fff; width: 130%;}
+
+#gallery ul li {display:inline; width:100px; height:80px; float: left; margin:1%; border:1px solid #000; cursor:pointer;}
+
+#gallery ul li.chosen div {
+position:absolute; left:0; top:0; width:100%; height:355px; background:#fff; border:1px solid #fff; border-width:1px 1px 0 1px;}
+
+#gallery ul li.chosen div i {
+width:100%; height:355px; display:table-cell; vertical-align; top; text-align:center;} 
+
+
+#gallery ul li.chosen div i img {
+visibility:visible; width: auto; height: 355px; border:1px solid #aaa;}
+
+#gallery ul li.chosen span {
+display:block;}
+
+
+#arrows {
+position: relative;
+left: 320px;
+}
+
+#gallery ul li span {display:none; position:absolute; top: 0px; left:-25%; width:20%;font-family:verdana, arial, sans-serif; color:#666; font-size:11px; line-height:15px; text-align:right;}
+
+/* vertical align for IE */
+#gallery ul li.chosen i {display:block;}
+#gallery ul li.chosen i em {width:0; height:0; display:} 
+#gallery ul li.chosen i img {width:530px; height:355px;}
+
+
+/* for IE6 initial photo size */
+#gallery ul li.chosen i img.start {width:530px; height:355px;}
+
+#gallery ul li div {margin:0 0 0 140px;}
+
+#gallery ul li span.paintingCaption {margin-left: 140px;}
+
+#gallery {width:100%; height:150px; position:relative; top:-10px; left: -210px; padding-top:356px; margin: 0;}
+
+#gallery ul {list-style:none; margin-left: -0px; background:#fff; width: 130%;}
+
+#gallery ul li {display:inline; width:100px; height:80px; float: left; margin:1%; border:1px solid #000; cursor:pointer;}
+
+#gallery ul li.chosen div {
+position:absolute; left:0; top:0; width:100%; height:355px; background:#fff; border:1px solid #fff; border-width:1px 1px 0 1px;}
+
+#gallery ul li.chosen div i {
+width:100%; height:355px; display:table-cell; vertical-align; top; text-align:center;} 
+
+
+#gallery ul li.chosen div i img {
+visibility:visible; width: auto; height: 355px; border:1px solid #aaa;}
+
+#gallery ul li.chosen span {
+display:block;}
+
+
+#arrows {
+position: relative;
+left: 320px;
+}
+
+#gallery ul li span {display:none; position:absolute; top: 0px; left:-25%; width:20%;font-family:verdana, arial, sans-serif; color:#666; font-size:11px; line-height:15px; text-align:right;}
